@@ -2,7 +2,8 @@ package com.cc.java;
 
 public class Cat {
     
-    public void tellYourAddress() {
-        System.out.println(this);   
+    // this --> Instanzvariable
+    public String tellYourAddress() {
+        return "Blick von innen: " + this;   
     }
 }
