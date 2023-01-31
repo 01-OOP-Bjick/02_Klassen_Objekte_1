@@ -35,7 +35,7 @@ public class Cat {
         this.age = age;
     }
 
-    public boolean checkPermission() {
+    private boolean checkPermission() {
         return true;
     }
 
