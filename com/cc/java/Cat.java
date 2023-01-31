@@ -13,7 +13,11 @@ public class Cat {
     }
 
     public String getName() {
+    if (checkPermission()) {
         return name;
+    } else {
+        return "Sorry, NO permission!";
+    }
     }
     public void setName(String name) {
         this.name = name;
@@ -36,8 +40,10 @@ public class Cat {
     }
 
     private boolean checkPermission() {
-        return true;
+        return false;
     }
+
+
 
     // this --> Instanzvariable
     public String tellYourAddress() {
