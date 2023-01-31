@@ -23,8 +23,7 @@ public class Cat {
         return furColor;
     }
     public void setFurColor(String furColor) {
-        boolean permission = true;
-        if (permission){
+        if (checkPermission()){
         this.furColor = furColor;
         }
     }
@@ -34,6 +33,10 @@ public class Cat {
     }
     public void setAge(int age) {
         this.age = age;
+    }
+
+    public boolean checkPermission() {
+        return true;
     }
 
     // this --> Instanzvariable
