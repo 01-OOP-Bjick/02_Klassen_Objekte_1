@@ -13,8 +13,8 @@ public class App {
         output(cat.getFurColor());
         output(String.valueOf(cat.getAge()));    // Typkonvertierung
 
-        output("Blick von aussen: " + cat);
-        output(cat.tellYourAddress());
+        cat.setFurColor("gray");
+        output(cat.getFurColor());
 
         output("----------------------------------------");
 
@@ -23,9 +23,6 @@ public class App {
         output(cat2.getName());
         output(cat2.getFurColor());
         output(String.valueOf(cat2.getAge()));    // Typkonvertierung
-
-        output("Blick von aussen: " + cat2);
-        output(cat2.tellYourAddress()); 
     }
 
     public static void output(String outputStr) {

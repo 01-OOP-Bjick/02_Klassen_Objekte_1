@@ -18,18 +18,24 @@ public class Cat {
     public void setName(String name) {
         this.name = name;
     }
+
     public String getFurColor() {
         return furColor;
     }
     public void setFurColor(String furColor) {
+        boolean permission = true;
+        if (permission){
         this.furColor = furColor;
+        }
     }
+
     public int getAge() {
         return age;
     }
     public void setAge(int age) {
         this.age = age;
     }
+
     // this --> Instanzvariable
     public String tellYourAddress() {
         return "Blick von innen: " + this;   
