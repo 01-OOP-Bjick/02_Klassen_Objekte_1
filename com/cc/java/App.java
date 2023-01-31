@@ -9,9 +9,9 @@ public class App {
     // Cat --> Reverenztyp
         Cat cat = new Cat("Grizabella", "white", 29);
 
-        output(cat.tellYourName());
-        output(cat.tellYourFurColor());
-        output(String.valueOf(cat.tellYourAge()));    // Typkonvertierung
+        output(cat.getName());
+        output(cat.getFurColor());
+        output(String.valueOf(cat.getAge()));    // Typkonvertierung
 
         output("Blick von aussen: " + cat);
         output(cat.tellYourAddress());
@@ -20,9 +20,9 @@ public class App {
 
         Cat cat2 = new Cat("Alonzo", "gray", 35);
 
-        output(cat2.tellYourName());
-        output(cat2.tellYourFurColor());
-        output(String.valueOf(cat2.tellYourAge()));    // Typkonvertierung
+        output(cat2.getName());
+        output(cat2.getFurColor());
+        output(String.valueOf(cat2.getAge()));    // Typkonvertierung
 
         output("Blick von aussen: " + cat2);
         output(cat2.tellYourAddress()); 
@@ -31,8 +31,4 @@ public class App {
     public static void output(String outputStr) {
         System.out.println(outputStr);
     }
-  
-
-
-
 }
