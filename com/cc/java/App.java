@@ -7,11 +7,7 @@ public class App {
     // Instanziierung class --> objekt
     // cat --> Referenzvariable
     // Cat --> Reverenztyp
-        Cat cat = new Cat();
-
-        cat.name = "Grizabella";
-        cat.furColor = "white";
-        cat.age = 29;
+        Cat cat = new Cat("Grizabella", "white", 29);
 
         output(cat.tellYourName());
         output(cat.tellYourFurColor());
@@ -22,11 +18,7 @@ public class App {
 
         output("----------------------------------------");
 
-        Cat cat2 = new Cat();
-
-        cat2.name = "Alonzo";
-        cat2.furColor = "gray";
-        cat2.age = 35;
+        Cat cat2 = new Cat("Alonzo", "gray", 35);
 
         output(cat2.tellYourName());
         output(cat2.tellYourFurColor());
