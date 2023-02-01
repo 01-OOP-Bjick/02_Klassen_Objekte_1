@@ -25,7 +25,7 @@ public class App {
         output(String.valueOf(cat2.getAge()));    // Typkonvertierung
     }
 
-    public static void output(String outputStr) {
+    private static void output(String outputStr) {
         System.out.println(outputStr);
     }
 }

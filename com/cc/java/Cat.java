@@ -42,11 +42,4 @@ public class Cat {
     private boolean checkPermission() {
         return false;
     }
-
-
-
-    // this --> Instanzvariable
-    public String tellYourAddress() {
-        return "Blick von innen: " + this;   
-    }
 }
